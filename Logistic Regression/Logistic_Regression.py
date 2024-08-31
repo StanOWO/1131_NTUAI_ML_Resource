@@ -37,7 +37,7 @@ from HappyML.regression import LogisticRegressor
 model = LogisticRegressor()
 Y_pred = model.fit(X_train, Y_train).predict(X_test)
 
-# In[]
+# In[] Performance
 # from sklearn.metrics import confusion_matrix
 # from sklearn.metrics import accuracy_score
 # from sklearn.metrics import precision_score
