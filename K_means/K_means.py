@@ -7,7 +7,7 @@ Created on Sun Mar  3 00:44:21 2024
 # In[] Preprocessing
 import HappyML.preprocessor as pp
 
-# Load Dataset
+# Read CSV file
 dataset = pp.dataset(file="../dataset/Hobby_Data.csv")
 
 # Decomposition

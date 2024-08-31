@@ -8,7 +8,7 @@ Created on Sat Mar  2 22:07:44 2024
 # In[] Preprocessing
 import HappyML.preprocessor as pp
 
-# Import & Load Data Set
+# Read CSV file
 dataset = pp.dataset(file="../dataset/car_data.csv")
 
 # Decomposition the dataset into Independent & Dependent Variables
@@ -56,7 +56,7 @@ print(f"Accuracy: {pfm.accuracy():.2%}")
 print(f"Recall: {pfm.recall():.2%}")
 print(f"Precision: {pfm.precision():.2%}")
 
-# In[] Draw
+# In[] Visualization
 import HappyML.model_drawer as md
 
 md.classify_result(x=X_train, y=Y_train, classifier=model.regressor, 
