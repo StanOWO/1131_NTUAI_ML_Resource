@@ -28,7 +28,7 @@ Y_pred = regressor.fit(X_train, Y_train).predict(X_test)
 
 # In[] Performance
 R_Score = regressor.r_score(X_test, Y_test)
-print("R-Squared Score:", regressor.r_score(X_test, Y_test))
+print("R-Squared Score:", R_Score)
 
 # In[] Draw
 import HappyML.model_drawer as md
