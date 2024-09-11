@@ -31,8 +31,6 @@ from HappyML.performance import ClassificationPerformance
 pfm = ClassificationPerformance(Y_test, Y_pred)
 print("Confusion Matrix:\n", pfm.confusion_matrix())
 print(f"Accuracy: {pfm.accuracy():.2%}")
-print(f"Recall: {pfm.recall():.2%}")
-print(f"Precision: {pfm.precision():.2%}")
 
 # In[] Visualization
 import HappyML.model_drawer as md
