@@ -40,21 +40,15 @@ Y_pred = model.fit(X_train, Y_train).predict(X_test)
 # In[] Performance
 # from sklearn.metrics import confusion_matrix
 # from sklearn.metrics import accuracy_score
-# from sklearn.metrics import precision_score
-# from sklearn.metrics import recall_score
 
 # print("Confusion Matrix:\n", confusion_matrix(y_true=Y_test, y_pred=Y_pred))
 # print(f"Accuracy: {accuracy_score(Y_test, Y_pred):.2%}")
-# print(f"Recall: {recall_score(Y_test, Y_pred):.2%}")
-# print(f"Precision: {precision_score(Y_test, Y_pred):.2%}")
 
 from HappyML.performance import ClassificationPerformance
 
 pfm = ClassificationPerformance(Y_test, Y_pred)
 print("Confusion Matrix:\n", pfm.confusion_matrix())
 print(f"Accuracy: {pfm.accuracy():.2%}")
-print(f"Recall: {pfm.recall():.2%}")
-print(f"Precision: {pfm.precision():.2%}")
 
 # In[] Visualization
 import HappyML.model_drawer as md
