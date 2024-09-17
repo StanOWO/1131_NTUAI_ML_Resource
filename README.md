@@ -9,6 +9,7 @@ Repository file structure:
         |-- car_data.csv
         |-- Family Income and Expenditure.csv
         |-- Hobby_Data.csv
+        |-- housing.csv
         |-- Salary.csv
         |-- Salary Data.csv
         |-- Social_Network_Ads.csv
@@ -17,6 +18,7 @@ Repository file structure:
         |-- Linear_Regression_hw.py
         |-- Logistic_Regression_hw.py
         |-- K_means_hw.py
+        |-- California_Housing_Price_hw.py
         |-- group.csv
     |-- K_means
         |-- HappyML
@@ -57,3 +59,7 @@ Repository file structure:
 8. **K_means_hw.py**
    - A program to practice K_means Clustering and output group.csv which is a file with dataset and answer
    - The dataset is from [**Family Income and Expenditure.csv**](https://www.kaggle.com/datasets/grosvenpaul/family-income-and-expenditure)
+9. **California_Housing_Price_hw.py**
+   - A program to show Multiclass Classification by using SVM, Decision Tree, Random Forest
+   - The dataset is from [**housing.csv**](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+   - 
